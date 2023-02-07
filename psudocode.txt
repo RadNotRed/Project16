@@ -1,0 +1,7 @@
+Main: This class contains the main method which will collect input from the user for each element of the 4x4 magic square. It creates an object of the Server class and passes the square array as an argument.
+
+Server: This class will receive the square array from the Main class and checks if the numbers entered form a magic square or not. It has 3 methods:
+1. isMagicSquare(): This method calls 3 other methods: rowsAreEqual(), columnsAreEqual(), and diagonalsAreEqual(). If all of these methods return true, then isMagicSquare() returns true, indicating that the entered numbers form a magic square.
+2. rowsAreEqual(): This method checks if the sum of all the numbers in each row is equal to 34, the magic sum.
+3. columnsAreEqual(): This method checks if the sum of all the numbers in each column is equal to 34, the magic sum.
+4. diagonalsAreEqual(): This method checks if the sum of the numbers in both diagonals is equal to 34, the magic sum.
